@@ -1,5 +1,5 @@
 // Store the music link in a variable
-const musicLink = 'songs/संदेशे_आते_है_(4K)_-_Sandese_Aate_Hai_Full_4K_Video_Song_(Border)_-_बॉर्डर_-_सनी_देओल(48k).mp3';
+const musicLink = 'संदेशे_आते_है_(4K)_-_Sandese_Aate_Hai_Full_4K_Video_Song_(Border)_-_बॉर्डर_-_सनी_देओल(48k).mp3';
 // Create an audio element
 const audio = new Audio(musicLink);
 
