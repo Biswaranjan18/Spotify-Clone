@@ -25,33 +25,33 @@ const songListDisplay = document.getElementById('songList');
 
 const songs = [
     {
-        name : "songs/संदेशे_आते_है_(4K)_-_Sandese_Aate_Hai_Full_4K_Video_Song_(Border)_-_बॉर्डर_-_सनी_देओल(48k).mp3",
+        name : "संदेशे_आते_है_(4K)_-_Sandese_Aate_Hai_Full_4K_Video_Song_(Border)_-_बॉर्डर_-_सनी_देओल(48k).mp3",
         title: "Aashiqui_Aa_Gayi",
         artist: "Arijit_Singh",
     },
     {
-        name : "songs/He_Mahabahu_-_Satyajit_Pradhan_-_Viral_Jagannath_Bhajan_-_New_Odia_Bhajan_Song_2023_-_Viral_Bhajan(48k).mp3",
+        name : "He_Mahabahu_-_Satyajit_Pradhan_-_Viral_Jagannath_Bhajan_-_New_Odia_Bhajan_Song_2023_-_Viral_Bhajan(48k).mp3",
         title: "He_Mahabahu",
         artist: "Satyajit_Pradhan",
     },
     {
-        name : "songs/संदेशे_आते_है_(4K)_-_Sandese_Aate_Hai_Full_4K_Video_Song_(Border)_-_बॉर्डर_-_सनी_देओल(48k).mp3",
+        name : "संदेशे_आते_है_(4K)_-_Sandese_Aate_Hai_Full_4K_Video_Song_(Border)_-_बॉर्डर_-_सनी_देओल(48k).mp3",
         title: "Meri_Zindagi_Hai_Tu",
         artist: "Neeti___Manoj",
     },
     {
-        name : "songs/He_Mahabahu_-_Satyajit_Pradhan_-_Viral_Jagannath_Bhajan_-_New_Odia_Bhajan_Song_2023_-_Viral_Bhajan(48k).mp3",
+        name : "He_Mahabahu_-_Satyajit_Pradhan_-_Viral_Jagannath_Bhajan_-_New_Odia_Bhajan_Song_2023_-_Viral_Bhajan(48k).mp3",
         title: "He_Mahabahu",
         artist: "Satyajit_Pradhan",
 
     },
     {
-        name : "songs/संदेशे_आते_है_(4K)_-_Sandese_Aate_Hai_Full_4K_Video_Song_(Border)_-_बॉर्डर_-_सनी_देओल(48k).mp3",
+        name : "संदेशे_आते_है_(4K)_-_Sandese_Aate_Hai_Full_4K_Video_Song_(Border)_-_बॉर्डर_-_सनी_देओल(48k).mp3",
         title: "Aashiqui_Aa_Gayi",
         artist: "Arijit_Singh",
     },
     {
-        name : "songs/He_Mahabahu_-_Satyajit_Pradhan_-_Viral_Jagannath_Bhajan_-_New_Odia_Bhajan_Song_2023_-_Viral_Bhajan(48k).mp3",
+        name : "He_Mahabahu_-_Satyajit_Pradhan_-_Viral_Jagannath_Bhajan_-_New_Odia_Bhajan_Song_2023_-_Viral_Bhajan(48k).mp3",
         title: "He_Mahabahu",
         artist: "Satyajit_Pradhan",
 
