@@ -510,6 +510,12 @@ div.spotifyPlaylists h2 {
     gap: 10px;
   }
 
+  .mainContainer{
+    /* border: 1px solid red; */
+    overflow-x: hidden;
+  
+  }
+
   .spotifyPlaylists{
     /* border: 1px solid red; */
     width: 2000px;
