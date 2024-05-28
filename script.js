@@ -64,7 +64,7 @@ let isPlaying = false;
 const playMusic = () => {
     isPlaying=true;
     audio.play();
-    playBtn.src ='svg/pause.svg';
+    playBtn.src ='pause.svg';
     for(let i=0;i<playbars.length;i++){
         playbars[i].style.opacity='1';
     }
@@ -78,7 +78,7 @@ const playMusic = () => {
 const pauseMusic = () => {
     isPlaying=false;
     audio.pause();
-    playBtn.src ='svg/play.svg';
+    playBtn.src ='play.svg';
     for(let i=0;i<playbars.length;i++){
         playbars[i].style.opacity='0';
     }
@@ -138,9 +138,9 @@ const populateSongList = () => {
     songs.forEach((song, index) => {
         const li = document.createElement('li');
         // li.textContent = `${song.title} - /n ${song.artist}mp3 `;
-        li.innerHTML = ` <img src="svg/music.svg" alt="" id="leftPause"> ${song.title} - ${song.artist}.mp3 
+        li.innerHTML = ` <img src="music.svg" alt="" id="leftPause"> ${song.title} - ${song.artist}.mp3 
      <div class="playNow">
-        <img src="svg/leftPlayBtn.svg" alt="Play" class="leftPlayBtn">
+        <img src="leftPlayBtn.svg" alt="Play" class="leftPlayBtn">
     </div>`;
     const leftPlayIcon = document.getElementById('playButton');
         li.addEventListener('click', () => {
@@ -149,11 +149,11 @@ const populateSongList = () => {
             // playMusic();
             if(isPlaying){
                 pauseMusic();
-                leftPause.src= 'svg/leftPlayBtn.svg';
+                leftPause.src= 'leftPlayBtn.svg';
                 playbars.style.opacity = "0";
             }else{
                 playMusic();
-                leftPause.src= 'svg/leftPauseBtn.svg';
+                leftPause.src= 'leftPauseBtn.svg';
                 playbars.style.opacity = "1";
             }
 
